@@ -4,6 +4,7 @@ function Item_equipe(props) {
     return(
         <div className='item_equipe' onClick={(ev) => {
             let alvo = ev.target;
+
             if (alvo.classList.contains('ativo')) {
                 alvo.style.backgroundColor = 'rgba(0, 0, 0, 0.103)'
                 alvo.style.color = 'black'
@@ -13,7 +14,7 @@ function Item_equipe(props) {
                 alvo.style.color = 'white'
                 alvo.classList.add('ativo')
             }
-        }}><p className='item_equipe_p'>{props.texto}</p></div>
+        }}><p className='item_equipe_p'>{props.value}</p></div>
     )
 }
 
