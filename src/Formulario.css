@@ -55,55 +55,16 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-#equipes {
-  padding: 10px 15px;
-  font-size: 1.1rem;
-  width: 90%;
-}
-
-.submit-button {
-  display: block;
-  width: 20%;
-  margin: 2rem auto 0;
-  padding: 10px 0;
-  font-size: 1.1rem;
-}
-
-#iframe_holder {
-  height: 500px;
-}
-
-.iframe {
-  display: block;
-  margin: 2rem auto 5rem;
-}
-
-h3 {
-  margin-bottom: 4rem;
-}
-
-#termo {
-  margin: 7rem 0 4rem 0;
-}
-
-.li_e_concordo {
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-
-#li_e_concordo {
-  margin-right: 1rem;
-  size: 2rem;
-}
-
-#select_holder {
-  width: 100%;
-}
-
 #equipes_holder {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   place-items: center;
+}
+
+#equipes {
+  padding: 10px 15px;
+  font-size: 1.1rem;
+  width: 90%;
 }
 
 .item_equipe {
@@ -127,4 +88,46 @@ h3 {
 .item_equipe_p {
   pointer-events: none;
   caret-color: transparent;
+}
+
+#termos_holder {
+  margin-top: 5rem;
+}
+
+#termos_holder > div {
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+#iframe_holder {
+  display: flex;
+  overflow-y: scroll;
+  max-height: 700px;
+}
+
+#iframe {
+  height: 4600px;
+}
+
+.li_e_concordo {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+#li_e_concordo {
+  margin-right: 1rem;
+  size: 2rem;
+}
+
+#select_holder {
+  width: 100%;
+}
+
+#submit-button {
+  display: block;
+  width: 20%;
+  margin: 2rem auto 0;
+  padding: 10px 0;
+  font-size: 1.1rem;
 }

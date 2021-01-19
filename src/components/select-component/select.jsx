@@ -1,4 +1,3 @@
-import { render } from '@testing-library/react';
 import React from 'react';
 import Item_equipe from '../item-equipe-component/item-equipe'
 
@@ -14,7 +13,7 @@ class Select extends React.Component {
     }
 
     renderEquipe(equipe) {
-        return <Item_equipe texto={equipe.name}></Item_equipe>
+        return <Item_equipe value={equipe.name}></Item_equipe>
     }
 
     componentDidMount() {
